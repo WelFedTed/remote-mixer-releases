@@ -8,9 +8,10 @@
 <style>
   html, body { margin: 0; height: 100%; overflow: hidden; background: transparent; }
   body { display: grid; place-items: center; font: 600 13px system-ui, "Segoe UI", sans-serif; }
-  /* House banner: shown until an ad network fills the slot. */
+  /* House banner: shown until an ad network fills the slot. It fills the frame;
+     on phones the frame is the full screen width (the app rounds the PC banner). */
   .house { box-sizing: border-box; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
-           gap: 10px; padding: 0 12px; border-radius: 10px; background: #17191e; color: #b4b8c0; text-decoration: none; }
+           gap: 10px; padding: 0 12px; background: #17191e; color: #b4b8c0; text-decoration: none; }
   .house b { color: #7c9cff; }
 </style>
 </head>
